@@ -1,0 +1,510 @@
+/* animation of top section */
+
+              
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animateall {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+
+
+.here{
+    background-image: linear-gradient(rgba(108, 255, 238, 0.5), rgba(136, 219, 155, 0.5)),url('background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .tophead{
+    font-weight: bolder;
+    color:#395976;
+  
+  }
+  .animate-charcter
+  { 
+    margin-top: 2rem;
+    font-weight: bolder; 
+    text-transform: uppercase;
+     background-image: linear-gradient(
+      -225deg,
+      /* #3e9645 0%,
+      #3e9645 29%,
+      #3e9645 67%,
+      white 100% */
+      #416687   0%,
+     #0c2c48 100%
+      );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+    display: inline-block;
+      
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  .h3oftop{
+  color: #125828;
+  font-weight: 500;
+  
+  }
+  
+  .col-md-12 h4{
+  font-weight:400;
+  color: rgb(14, 76, 121);
+  margin-bottom: 2rem;
+  }
+  
+  .col-md-12 button{
+    font-weight: bolder;
+    font-size: 1.5rem; 
+    height: 4rem;
+     width: 11rem;
+    margin-bottom: 5rem;
+  background-color: #125828;
+  border: none;
+  }
+  
+  .btn-primary:hover{
+    background-color: green;
+  
+  }
+  
+  .navbar{
+    font-size: 1.3rem;
+      
+  }
+  .nav-link{
+    color: green;
+  }
+  .nav-item{
+    
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #283f53;
+  }
+  
+  .nav-item button{
+    background-color:#3e9645;
+  }
+  
+  .navbar-brand img{
+      width: 10rem;
+      height: 3rem;
+  }
+
+  #whyus{
+    text-align: center;
+    margin-top: 10%;
+  }
+  #whyus span{
+    color: #3e9645;
+  }
+   #whyus p{
+    font-size: large;
+    padding-left: 15%;
+   padding-right: 15% ;    
+   color: grey;
+   margin-bottom: 4rem;
+}
+
+#whyus h1{
+
+    margin-bottom: 4%;
+    font-weight: 600;
+}
+
+.affordableimage{
+width: 100px;
+height: 100px;
+margin-bottom: 50px;
+}
+
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#416687;
+    padding: 1% 5% 2% 5% ;
+}
+
+.body1 h1{
+    margin-top:2rem ;
+    color: #fff;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text1 6s infinite;
+    border-right: 2px solid white;
+}
+
+@keyframes text1 {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width:35ch;
+    }
+    
+}
+
+.quotebutton{
+    background-color: #3e9645;
+    border: none;
+}
+
+
+.testimonialsection{
+    margin-top: 2rem;
+   border:10px solid white;
+}
+
+.testimonialsection p{
+    margin-top:2rem ;
+    font-size: larg;
+    line-height: 0%;
+    color: #416687;
+}
+
+.testimonialsection hr{
+    width: 10rem;
+    border: 4px solid #3e9645;
+    
+   
+}
+
+.ccc{
+    height:400px;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+#services{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.sidepanel{
+  
+  color:black;
+  margin-top: 2rem;
+}
+.sidepanel h1{
+  font-weight: bolder;
+}
+.sidepanel span{
+  color: #3e9645;
+}
+.sidepanelleft img{
+  margin-top: 2rem;
+
+  /* height: 150px; */
+}
+.sidepanelleft h4{
+  font-weight: 700;
+}
+
+p{
+  font-size: large;
+  color: grey;
+}
+
+#reachoutbtn{
+  font-weight: bold;
+  margin-top: 1rem;
+  background-color: #283f53;
+  color:white;
+  border: none;
+}
+#reachoutbtn:hover{
+  background-color: #416687;
+}
+
+#plans span{
+  font-weight: bold;
+  color:#283f53;
+}
+
+#plans h1{
+  font-weight: bold;
+}
+
+.headingofcoverage{
+  color: #125828;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.amount{
+  color: #395976;
+  font-weight: bolder;
+}
+/* .lastcoverage{
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.offering{
+  margin-top: 2rem;
+}
+.offering:hover{
+  text-align: center;
+}
+.ing:hover{
+  background-color: #283f53;
+
+}
+
+.card-title{
+  text-align: center;
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.card-footer{
+ text-align: center;
+} */
+
+.hr{
+  border-top: 10px dotted rgb(1, 63, 1);
+  width: 200px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+#plans{
+  margin-bottom: 2rem;
+}
+
+.carousel{
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cardtopdiv1{
+  background-color:#416687;
+   width: 100%;
+    height:7rem;
+}
+
+.btnofcarddiv{
+  width: 100px;
+  height: 100px; 
+  border: none;
+  background-color: white; 
+  position: relative;
+  bottom: 2rem; 
+  color:green;
+   border-radius:50%;
+}
+
+.lmbtn{
+  background-color: #3e9645;
+  border: none;
+}
+.gtdbtn{
+  background-color: #0c2c48;
+  border: none;
+}
+.gtdbtn:hover{
+  background-color:#416687;
+}
+
+.carousel-control-prev-icon {
+  background-color:#0c2c48;
+}
+
+.carousel-control-next-icon{
+  background-color:#0c2c48;
+}
+
+
+.footerclass{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color:#203242;
+  color: white;
+}
+
+.contact p{
+  color: #fff;
+}
+.contact a{
+  color: #fff;
+}
+.contact a:hover{
+  color:#77B57C;
+}
+.contact img{
+  padding:10px;
+}
+
+
+
+
+/* Essential page */
+
+.Essentialcoverage{
+  font-weight: 700;
+  color: aliceblue;
+  background-color: #125828;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+ margin-bottom: 2rem;
+}
+
+.cvbtn{
+  background-color: #125828;
+  border: none;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+.cvbtn:hover{
+  background-color:green;
+}
+
+
+
+
+/* contactus */
+
+.contactustop{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain ;
+  background-image: url('../assets/operator.png');
+
+  width: 100%;
+}
+
+.cstop h1{
+padding: 10% 0;
+font-weight: bold;
+color: #395976;
+}
+
+              
+@keyframes slideInFromright {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.cstopall {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-in-out 0s 1 slideInFromright;
+}
+
+
+
+.cstop{
+  background-image: linear-gradient(rgba(108, 255, 238, 0.5), rgba(136, 219, 155, 0.5));
+}
+
+.mdcontact{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mdcontactelements h4{
+  margin-top: 2rem;
+}
+
+.mdcontactelements a{
+  color: #416687;
+  text-decoration: none;
+font-weight: bolder;
+}
+.mdcontactelements img{ 
+  margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.mdcontactelements p{
+color: #416687;
+font-weight: bolder;
+}
+
+
+
+/* aboutus */
+.aboutustop{
+  margin-bottom: 3rem;
+}
+
+.aboutustop h1{
+  padding-top: 7%;
+  font-weight: 500;
+  color: #203242;
+
+}
+
+.aboutustop span{
+  color: #3e9645;
+}
+
+.aboutustop h3{
+  margin-top: 2rem;
+  color: #416687;
+}
+
+.mission{
+  margin-top: 2rem;
+}
+
+.mission hr{
+  margin-top: -5px;
+  width: 10rem;
+  border-top: 5px solid #125828;
+}
+
+.detailofus span{
+  color: #395976;
+  font-weight: bold;
+}
+
+.detailofus{
+  margin-bottom: 5rem;
+}
+
+
+/* form */
+
+.formcontainer{
+  padding-top: 2rem;
+  padding-left:7% ;
+padding-right: 7%;
+  margin: 5rem auto;
+  background-color:#dbf3dd;
+  color:#0c2c48 ;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 5px solid white;
+}
