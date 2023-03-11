@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- <style>
+.here{
+  background-color: #283f53;
+}
+.animate-charcter
+{ 
+  margin-top: 2rem;
+  font-weight: bolder; 
+  text-transform: uppercase;
+   background-image: linear-gradient(
+    -225deg,
+    /* #3e9645 0%,
+    #3e9645 29%,
+    #3e9645 67%,
+    white 100% */
+    #3e9645 0%,
+    white 100%
+    );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+    
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.col-md-12 h3{
+color: white;
+font-weight: bold;
+
+}
+
+.col-md-12 h4{
+font-weight:200;
+color: #3e9645;
+margin-bottom: 2rem;
+}
+
+.col-md-12 button{ 
+  margin-bottom: 3rem;
+background-color: #3e9645;
+border: none;
+}
+
+.btn-primary:hover{
+  background-color: green;
+}
+
+.navbar{
+  font-size: 1.5rem;
+
+}
+.nav-item{
+  margin-left: 1rem;
+  font-weight: 500;
+  color: #283f53;
+}
+
+.nav-item button{
+  background-color:#3e9645;
+}
+
+.navbar-brand img{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+  </style> -->
+   <link rel="stylesheet" href="style/styles.css">  
+</head> 
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+ 
+    <nav class="navbar navbar-expand-lg bg-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="assets/Insure C-Store - Color Logo, Transparent.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto  ">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#
+              " role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Coverage Plans
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="essential.html">Essential</a></li>
+                <li><a class="dropdown-item" href="recommended.html">Recommended</a></li>
+                <li><a class="dropdown-item" href="enhanced.html">Enhanced</a></li>
+              </ul>
+            </li>
+          
+
+            <li class="nav-item">
+              <a href="quoteform.html"><button class="btn btn-primary btn-lg"> Get Insured</button></a> 
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+ 
+      <div class="container-fluid here animateall">
+        <div class="row">
+          <div class="col-md-12 text-center" >
+            <h1 class=" tophead display-1 animate-charcter" > INSURE CONVENIENCE STORE</h1>
+       
+            <h3 class="display-4 h3oftop">We Protect What You Love Most</h3>
+              <h4 class="display-6">Peace Of Mind Peace Of Life</h4>
+            <a href="quoteform.html"><button class="btn btn-primary btn-lg">Get a Quote</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+       <section id="whyus">
+         <h1 class="display-4">Why <span>Cstore?</span></h1>
+         <p>C-store insurance is redefining what it means to purchase small business insurance. Too often you are forced to struggle through the insurance buying process, we make your expericence simple, affordable, transparent and quick</p>
+
+         <div class="row">
+          
+          <div class="col-lg-4 col-md-12">
+            <img class="affordableimage" src="assets/simple.png" alt="">  
+            
+            <h3>Simple</h3>
+            <p>Our simple quote request process will match you with the right insurance for your rental. It couldn't be easier, or faster.</p>  
+          </div>
+          <div class="col-lg-4 col-md-12">
+          <img class="affordableimage" src="assets/salary.png" alt="">  
+          
+          <h3>Affordable</h3>
+           <p>Get the coverage you need to protect your investment, and save some money for your future investments.</p>  
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <img class="affordableimage" src="assets/secure.png" alt="">  
+          <h3>Transparent</h3>
+           <p>Our whole process is online and straightforward. Just answer a few property questions and we’ll get you covered.</p>  
+        </div>
+         </div>
+
+         
+      <div class=" d-none d-md-block body1">
+        <h1>Our Company provides the best service</h1>
+        <a href="quoteform.html"><button class="btn btn-primary btn-lg quotebutton">Get a Quote</button> </a> 
+      </div>
+       </section>
+      </div>
+
+          
+     <div class="container-fluid testimonialsection bg-light">
+      <section id="testimonials">
+     <p>CLIENT FEEDBACK</p>
+     <hr>
+     <h1 class="display-4"><strong>Testimonials</strong></h1>
+     <div class="embed-responsive embed-responsive-16by9 text-center">
+      <iframe class="embed-responsive-item ccc" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+    </div>    
+    </section>
+    </div>
+    
+    <div class="container-fluid">
+      <section id="services">
+         <div class="row">
+          <div class="col-lg-6 text-center sidepanelleft">
+          <div class="row">
+          <div class="col-lg-6">
+                <img  class="img-fluid" src="assets/building.png" alt="">
+                <h4>Building</h4>
+              </div>
+          <div class="col-lg-6">
+            <img src="assets/petrol.png" alt="">
+            <h4>Petrol Pumps</h4>
+      </div>
+      <div class="col-lg-6">
+        <img src="assets/canopy.png" alt="">
+        <h4>Canopy</h4>
+  </div>
+        
+      <div class="col-lg-6">
+        <img src="assets/shop.png" alt="">
+        <h4>Stores</h4>
+      </div>
+      <div class="col">
+     <a href="contact.html"> <button class="btn btn-lg btn-primary" id="reachoutbtn">Reach out to us</button> </a>
+      </div>
+</div>
+      </div>
+      <div class="col-lg-6 sidepanel">
+        <h1 class="display-4">Your <span>business, gas station, capony and stores</span> are all covered</h1>
+        <p>Looking for reliable insurance company. We got you! Our priorities are respectability and reliability when it comes to advising our customers.
+        </p>
+        <p> We take everyday with three things in mind: provide exceptional service to each individual client, create relationships and have fun along the way.</p>
+      </div>
+      </div>
+      
+      </section>
+    </div>
+
+    <hr class="hr">
+
+  <div class="container-fluid">
+    <section class="coverageplan" id="plans">
+      <h1 class="display-3 text-center">Our <span>Plans</span></h1>
+<p class="text-center">The slides show three plans that our company provides</p>
+       <!-- <div class="row ing">
+        <div class="col-lg-6 offering">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Essential</h5>
+              <p class="card-text">General Liability -> <span class="coveragespan">$1M/$2M</span></p>
+              <p class="card-text">Assault And Battery -> <span class="coveragespan">$25000/$50000</span></p>
+              <p class="card-text">Liquor Liability -><span class="coveragespan"> $500000/$1M</span></p>
+              <p class="card-text">Business Income -><span class="coveragespan"> ALS/$25000</span></p>
+              <p class="card-text">Crime -> <span class="coveragespan">$2500</span></p>
+              <p class="card-text">Employee Dishonesty -><span class="coveragespan"> $5000</span></p>
+              <p class="card-text">Spoilage -> <span class="coveragespan">none</span></p>
+              <p class="card-text">Equipment Breakdown -> <span class="coveragespan">none</span></p>
+              <p class="card-text">Hired and Non Hired auto -> <span class="coveragespan">none</span></p>
+              <p class="card-text">Umbrella -><span class="coveragespan"> none</span></p>
+              <p class="card-text">EPLI -><span class="coveragespan"> none</span></p>
+              <p class="card-text">Worker's Compensation -> <span class="coveragespan">$100/$500</span></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn  btn-lg btn-primary">Learn More</button>
+                <button class="btn  btn-lg btn-primary">Get Insured</button>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 offering">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Recommended</h5>
+              <p class="card-text">General Liability -> <span class="coveragespan">$1M/$2M</span></p>
+              <p class="card-text">Assault And Battery -> <span class="coveragespan">$50000/$100000</span></p>
+              <p class="card-text">Liquor Liability -><span class="coveragespan"> $1M</span></p>
+              <p class="card-text">Business Income -><span class="coveragespan"> ALS/$50000</span></p>
+              <p class="card-text">Crime -> <span class="coveragespan">$5000</span></p>
+              <p class="card-text">Employee Dishonesty -><span class="coveragespan"> $10000</span></p>
+              <p class="card-text">Spoilage -> <span class="coveragespan">$5000/$10000</span></p>
+              <p class="card-text">Equipment Breakdown -> <span class="coveragespan">Including</span></p>
+              <p class="card-text">Hired and Non Hired auto -> <span class="coveragespan">$1M/$2M</span></p>
+              <p class="card-text">Umbrella -><span class="coveragespan">$1M</span></p>
+              <p class="card-text">EPLI -><span class="coveragespan">$25000</span></p>
+              <p class="card-text">Worker's Compensation -> <span class="coveragespan">$500</span></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn  btn-lg btn-primary">Learn More</button>
+                <button class="btn  btn-lg btn-primary">Get Insured</button>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 lastcoverage offering">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Enhanced</h5>
+              <p class="card-text">General Liability -> <span class="coveragespan">$2M/$4M</span></p>
+              <p class="card-text">Assault And Battery -> <span class="coveragespan">$1M</span></p>
+              <p class="card-text">Liquor Liability -><span class="coveragespan"> $1M/$2M</span></p>
+              <p class="card-text">Business Income -><span class="coveragespan"> ALS/$50000/$100000</span></p>
+              <p class="card-text">Crime -> <span class="coveragespan">$10000/$25000</span></p>
+              <p class="card-text">Employee Dishonesty -><span class="coveragespan"> $25000</span></p>
+              <p class="card-text">Spoilage -> <span class="coveragespan">$25000/$50000</span></p>
+              <p class="card-text">Equipment Breakdown -> <span class="coveragespan">Including</span></p>
+              <p class="card-text">Hired and Non Hired auto -> <span class="coveragespan">$2M/$4M</span></p>
+              <p class="card-text">Umbrella -><span class="coveragespan"> $1M</span></p>
+              <p class="card-text">EPLI -><span class="coveragespan"> $50000</span></p>
+              <p class="card-text">Worker's Compensation -> <span class="coveragespan">$1M</span></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn  btn-lg btn-primary">Learn More</button>
+                <button class="btn  btn-lg btn-primary">Get Insured</button>
+              </div>
+          </div>
+        </div>
+        
+
+      </div> -->
+        
+    <!-- <div class="accordion" id="accordionExample">
+  <div class=" accordion-item">
+    <h2 class=" accordion-header" id="headingOne">
+      <button class=" accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+   <div class="headingofcoverage"> Essential </div> 
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+   <table class="table text-center">
+   <thead>
+    <tr>
+      
+     
+      <th scope="col">Coverage</th>
+      <th scope="col">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>General Liability </td>
+           <td class="amount">$1M/$2M</td>
+    </tr>
+   
+   <tr>
+      <td>Assault And Battery </td>
+     
+      <td class="amount">$25000/$50000</td>
+    </tr>
+   
+   <tr>
+      <td>Liquor Liability </td>
+     
+      <td class="amount">$500000/$1M</td>
+    </tr>
+   
+   <tr>
+      <td>Business Income </td>
+     
+      <td class="amount">ALS/$25000</td>
+    </tr>
+   
+   <tr>
+      <td>Crime </td>
+      <td class="amount">$2500</td>
+    </tr>
+   
+   <tr>
+      <td>Employee Dishonesty </td>
+      <td class="amount">$5000</td>
+    </tr>
+   
+   <tr>
+      <td>Spoilage </td>
+    <td class="amount">-</td>
+    </tr>
+   
+   <tr>
+      <td>Equipment Breakdown </td>
+     <td class="amount">-</td>
+    </tr>
+   
+   <tr>
+      <td>Hired and Non Hired auto </td>
+    <td class="amount">-</td>
+    </tr>
+   
+   <tr>
+      <td>Umbrella </td>
+   <td class="amount">-</td>
+    </tr>
+   
+   <tr>
+      <td>EPLI</td>
+      <td class="amount">-</td>
+    </tr>
+   
+   <tr>
+      <td>Worker's Compensation</td>
+      <td class="amount">$100/$500</td>
+    </tr>
+   
+  </tbody>
+</table>
+</div>
+    </div>
+  
+  </div>
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <div class="headingofcoverage">Recommended </div> 
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <table class="table text-center">
+        <thead>
+         <tr>
+           <th scope="col">Coverage</th>
+           <th scope="col">Amount</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>General Liability </td>
+                <td class="amount">$1M/$2M</td>
+         </tr>
+        
+        <tr>
+           <td>Assault And Battery </td>
+          
+           <td class="amount">$50000/$100000</td>
+         </tr>
+        
+        <tr>
+           <td>Liquor Liability </td>
+          
+           <td class="amount">$1M</td>
+         </tr>
+        
+        <tr>
+           <td>Business Income </td>
+          
+           <td class="amount">ALS/$50000</td>
+         </tr>
+        
+        <tr>
+           <td>Crime </td>
+           <td class="amount">$5000</td>
+         </tr>
+        
+        <tr>
+           <td>Employee Dishonesty </td>
+           <td class="amount">$10000</td>
+         </tr>
+        
+        <tr>
+           <td>Spoilage </td>
+         <td class="amount">$5000/$10000</td>
+         </tr>
+        
+        <tr>
+           <td>Equipment Breakdown </td>
+          <td class="amount">Including</td>
+         </tr>
+        
+        <tr>
+           <td>Hired and Non Hired auto </td>
+         <td class="amount">$1M/$2M</td>
+         </tr>
+        
+        <tr>
+           <td>Umbrella </td>
+        <td class="amount">$1M</td>
+         </tr>
+        
+        <tr>
+           <td>EPLI</td>
+           <td class="amount">$25000</td>
+         </tr>
+        
+        <tr>
+           <td>Worker's Compensation</td>
+           <td class="amount">$500</td>
+         </tr>
+        
+       </tbody>
+     </table>
+     </div>
+    </div>
+  </div>
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <div class="headingofcoverage"> Enhanced </div> 
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <table class="table text-center">
+        <thead>
+         <tr>
+           
+          
+           <th scope="col">Coverage</th>
+           <th scope="col">Amount</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>General Liability </td>
+                <td class="amount">$2M/$4M</td>
+         </tr>
+        
+        <tr>
+           <td>Assault And Battery </td>
+          
+           <td class="amount">$1M</td>
+         </tr>
+        
+        <tr>
+           <td>Liquor Liability </td>
+          
+           <td class="amount">$1M/$2M</td>
+         </tr>
+        
+        <tr>
+           <td>Business Income </td>
+          
+           <td class="amount">$50000/$100000</td>
+         </tr>
+        
+        <tr>
+           <td>Crime </td>
+           <td class="amount">$10000/$25000</td>
+         </tr>
+        
+        <tr>
+           <td>Employee Dishonesty </td>
+           <td class="amount">$25000</td>
+         </tr>
+        
+        <tr>
+           <td>Spoilage </td>
+         <td class="amount">$25000/$50000</td>
+         </tr>
+        
+        <tr>
+           <td>Equipment Breakdown </td>
+          <td class="amount">Including</td>
+         </tr>
+        
+        <tr>
+           <td>Hired and Non Hired auto </td>
+         <td class="amount">$2M/$4M</td>
+         </tr>
+        
+        <tr>
+           <td>Umbrella </td>
+        <td class="amount">$1M</td>
+         </tr>
+        
+        <tr>
+           <td>EPLI</td>
+           <td class="amount">$50000</td>
+         </tr>
+        
+        <tr>
+           <td>Worker's Compensation</td>
+           <td class="amount">$1M</td>
+         </tr>
+        
+
+       </tbody>
+     
+      </table>
+      <div class="text-center">
+      <button class="btn btn-primary">Learn More</button>
+          <button class="btn btn-primary">Get Covered</button>
+        </div>
+    </div>
+     </div>
+  </div>
+</div> -->
+    
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active text-center">
+      <div class="card text-center m-auto" style="width: 18rem;">
+          <div>
+              <div class="cardtopdiv1"></div>
+              <button class="btnofcarddiv" ><h1 class="display-2">01</h1></button>
+              <h2 class="card-subtitle" style="margin-top: -2rem;" >Essential</h2>
+  
+          </div>
+     
+          <div class="card-body ">
+            <p class="card-text">The esstential package covers General Liability,Assault And Battery,Liquor Liability,Business Income,Crime,Employee Dishonesty and worker's Compensation</p>
+            <a href="essential.html" class="btn btn-primary lmbtn">Learn More</a>
+            <a href="quoteform.html" class="btn btn-primary gtdbtn">Get this deal</a>
+          </div>
+        </div>
+      
+    </div>
+    <div class="carousel-item">
+      <div class="card text-center m-auto" style="width: 18rem;">
+          <div>
+              <div class="cardtopdiv1"></div>
+              <button class="btnofcarddiv"><h1 class="display-2">02</h1></button>
+              <h2 class="card-subtitle" style="margin-top: -2rem;" >Recommended</h2>
+  
+          </div>
+     
+          <div class="card-body ">
+  <p class="card-text">This deals cover everything that the essential package covers additionally it also covers spoilage,Equipment breakdown, hired and non hired auto, Umbrella and EPLI</p>
+              <a href="recommended.html" class="btn btn-primary lmbtn">Learn More</a>
+            <a href="quoteform.html" class="btn btn-primary gtdbtn">Get this deal</a>
+          </div>
+        </div>
+      
+    </div>
+   
+    <div class="carousel-item">
+      <div class="card text-center m-auto" style="width: 18rem;">
+          <div>
+              <div class="cardtopdiv1"></div>
+              <button class="btnofcarddiv"><h1 class="display-2">03</h1></button>
+              <h2 class="card-subtitle" style="margin-top: -2rem;" >Enhanced</h2>
+  
+          </div>
+     
+          <div class="card-body ">
+              <p class="card-text">This package covers the entire deal of Recommended and essential. The highlight of this package is it provides greater coverage of upto $4M in some case </p>
+              <a href="enhanced.html" class="btn btn-primary lmbtn">Learn More</a>
+            <a href="quoteform.html" class="btn btn-primary gtdbtn">Get this deal</a>
+          </div>
+        </div>
+         
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+  </div>
+
+  
+      <div class="container-fluid footerclass">
+        <footer class="text-center">
+          <div class="accordion text-start mb-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   What are the coverage options available?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Our company provides three coverage options according to the customers need. Under these packages general liability, assault and battery, liquor liability, business income, crime, employee dishonesty, spoilages, equipment breakdown, hired and non hired auto, umbrella, epli and worker's compensation</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   What is General liability?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>General Liability insurance provides protection for your company’s current assets, and future earnings, helps resolve financial obligations, legal defense, or judgments awarded to an injured party. GL Coverage may also help defend claims for copyright infringement, false advertising, or libel and slander. Should someone be injured in some way in the course of visiting or doing business with your company, a general liability insurance policy can provide coverage.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           What is Umbrella?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Umbrella insurance is inexpensive and provides liability protection in situations where other insurance policies do not. The extra layer of coverage, the umbrella, helps protect current assets and future earnings by increasing the limit of insurance available to pay claims or even provide coverage for claims that are not covered by other policies. For example, should an auto accident claim exceed the property limit provided, the umbrella could cover the balance of the claims cost. Otherwise, that dollar difference is going to come out of pocket. Another area umbrella policies offer safeguards is for liability due to slander or defamation of character which are not covered by most general liability policies. Liability claims are filed daily – even frivolous claims.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           
+          What is Business Owner's Policy?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                      <p>A business owner’s policy or “BOP” is designed specifically for small or medium-sized businesses and combines several types of insurance coverage in single policy package. A BOP usually includes both property and liability coverage to protect from these type risks:
+          
+          • Property, Products and Completed Operations <br>
+          • Equipment Breakdown - Spoilage<br>
+          • Business Interruption – Loss of Revenue <br>
+          • General Liability</p>
+                </div>
+              </div>
+            </div>
+          
+          
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+           
+          What Workers' Compensation coverage means?
+                 </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                      <p>
+                          A workers compensation policy will pay for an employee’s medical costs, lost wages, permanent disability or death benefits that result from a workplace injury or illness. Another part of coverage provided by a workers compensation policy is protection from employee lawsuits. Not only must a business provide a safe work place, it must also make sure that all employees are protected from work place accidents. Three things any business faces without workers compensation coverage:
+          <br>
+          • Legal Issues
+          <br>• Employment – Labor Related Fines
+          <br>• Financial Ruin
+          <br>
+          Even if coverage is not mandatory by state law, the coverage is critical and very much recommended. No one would want to lose their business because of an accident and liability that could have been transferred to an insurance company.
+              </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact">
+            <h4>Contact us </h4>
+            <p>Email: <a href="mailto:team@mckinneyandco.com">team@mckinneyandco.com</a> </p>
+            <p>Call us on <a href="tel:1-855-723-9901">1-855-723-9901</a></p>
+          <a href="https://www.facebook.com/mckinneyinsure/"><img class="img-fluid" src="assets/facebook.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/mckinney-and-co-insurance" ><img class="img-fluid" src="assets/linkedin.png" alt=""></a>
+        </div>
+          <h6>&copy;2022 Convenience store insurance|4964 Lavista Rd, Tucker, GA, 30084	</h6>
+        </footer>
+      </div>
+    
+     
+    </body>
+</html>
